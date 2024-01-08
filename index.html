@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamod Chandimal - Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #about {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #about img {
+            max-width: 100%;
+            height: auto;
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+        }
+
+        #about p {
+            font-size: 20px;
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #content {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            margin-bottom: 60px;
+        }
+
+        #skills,
+        #projects,
+        #contact {
+            width: 48%;
+            padding: 20px;
+        }
+
+        #resume {
+            width: 48%;
+            padding: 20px;
+            order: 2;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        #skills h2 {
+            text-decoration: underline;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills ul li {
+            margin-bottom: 8px;
+        }
+
+        #contact p {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Chamod Chandimal</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="img.png" alt="Chamod">
+        <p>
+            Hello there! 👋 I'm Chamod Chandimal, an Enthusiastic and creative Undergraduate Student with a Passion for
+            Crafting Delightful Digital Experiences. Currently Pursuing My Degree in Information and Communication
+            Technology at Uva Wellassa University of Sri Lanka, I Find Joy in Translating Imaginative Designs into
+            Interactive and User-Friendly Websites
+        </p>
+    </section>
+
+    <!-- Content Section -->
+    <div id="content">
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySql</li>
+                <li>Web Accessibility</li>
+            </ul>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="https://drive.google.com/file/d/18YNjrzyz86liTPsccodc7SG8Xy-ebcrR/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.</p>
+        </section>
+
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: era8nda@gmail.com</p>
+        <p>Phone: +94 76 789 5740</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chamod Chandimal. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
